@@ -22,7 +22,7 @@ ShelterMatters.weatherMultipliers = {
 
 -- default values for bale weather deterioration rates
 ShelterMatters.baleWeatherDecay = {
-    default = 0,    -- No deterioration, fair weather.
+    default = 50,    -- No deterioration, fair weather.
     fog     = 1000, -- Slow deterioration due to prolonged moisture.
     snow    = 2000, -- Moderate deterioration, moisture exposure.
     rain    = 3000  -- Heavy deterioration due to water damage.
